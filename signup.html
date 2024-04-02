@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Hostel Booking App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Hostel Booking App Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <label for="Number">Contact Number:</label>
+            <input type="number" id="Number" name="Number" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <h2>Guardian Information</h2>
+            <label for="guardian-name">Guardian Name:</label>
+            <input type="text" id="guardian-name" name="guardian-name" required>
+            <label for="guardian-email">Guardian Email:</label>
+            <input type="email" id="guardian-email" name="guardian-email" required>
+            <label for="guardian-phone">Guardian Phone:</label>
+            <input type="tel" id="guardian-phone" name="guardian-phone" required>
+            <label for="relation">Relation to Guardian:</label>
+            <select id="relation" name="relation" required>
+                <option value="">Select Relation</option>
+                <option value="parent">Parent</option>
+                <option value="sibling">Sibling</option>
+                <option value="relative">Relative</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>
